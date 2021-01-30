@@ -3,64 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Newsweek</title>
   </head>
 
   <body>
-    <!-- header absolute -->
-    <header class="absolute">
-      <time>Tue, Jan 26, 2021</time>
-
-      <h1>Newsweek</h1>
-
-      <div>
-        <button class="login"></button>
-        <button class="subscribe"></button>
-      </div>
-    </header>
-    <!-- header absolute -->
-
     <!-- header fixed -->
-    <header class="fixed">
-      <h3>Newsweek</h3>
+    <header class="sticky-top navbar navbar-expand-lg bg-primary justify-content-between flex-nowrap">
+      <time class="d-none d-lg-block text-light fs-5 align-self-end mx-4 mb-3">Tue, Jan 26, 2021</time>
 
-      <div>
-        <button class="login"></button>
-        <button class="subscribe"></button>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <h1>
+        <a href="#">
+          <img src="/images/newsweek_logo.svg" alt="" class="header__h1 filter-white m-3" />
+        </a>
+      </h1>
+
+      <div class="flex-nowrap d-flex flex-row align-items-center">
+        <a href="#">
+          <i class="fas fa-user fs-4 mx-3 text-light d-md-none"></i>
+        </a>
+        <a href="#" class="d-none d-md-block text-decoration-none text-light text-uppercase fw-bolder fs-3 mx-3">Login</a>
+        <button class="subscribe rounded-pill border-0 px-2 mx-1 bg-secondary text-dark fw-bolder fs-5">Subscribe</button>
+        <a href="#">
+          <i class="fas fa-bars fs-2 text-light mx-3"></i>
+        </a>
       </div>
     </header>
     <!-- header fixed -->
 
     <!-- privacy icon fixed -->
-    <a href="#">
-      <img src="images/privacy-svg.svg" alt="" />
+    <a href="#" class="handicap-icon bg-primary d-flex justify-content-center align-content-center rounded-circle">
+      <img src="images/privacy-svg.svg" alt="" class="filter-white"/>
     </a>
     <!-- privacy icon fixed -->
 
     <!-- nav -->
-    <nav>
+    <nav class="d-none d-lg-flex flex-column">
       <!-- ul top -->
-      <ul>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li>Lorem</li>
-        <li class="search-box">
-          <input type="text" placeholder="search" />
-          <i>Magnifier Icon</i>
+      <ul class="d-flex align-items-center border-bottom fs-4 fw-bolder list-unstyled">
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="border-end p-2">Lorem</li>
+        <li class="nav__search-bar">
+          <input type="text" placeholder="search" class=""/>
+          <i class="fas fa-search"></i>
         </li>
       </ul>
       <!-- ul top -->
