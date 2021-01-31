@@ -17,12 +17,22 @@
   padding: 6px;
 }
 
+.top-ul span {
+  display: inline;
+  border: 1px solid rgb(216, 216, 216);
+  height: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+
+
 .nav__search-bar {
   display: flex;
-  justify-content: flex-end;
-  // align-items: flex-start;
+  align-items: center;
   margin-left: 10px;
-  // justify-content: ;
 }
 
 .nav__search-bar input {
