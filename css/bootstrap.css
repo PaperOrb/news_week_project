@@ -7458,7 +7458,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-  color: #0d6efd !important;
+  color: #f72210 !important;
 }
 
 .text-secondary {
@@ -7501,6 +7501,10 @@ fieldset:disabled .btn {
   color: #6c757d !important;
 }
 
+.text-black {
+  color: black;
+}
+
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -7535,6 +7539,14 @@ fieldset:disabled .btn {
 
 .bg-secondary {
   background-color: #ffe400 !important;
+}
+
+.bg-gray {
+  background-color: #cccccc;
+}
+
+.bg-light-gray {
+  background-color: #f4f5f6;
 }
 
 .bg-success {

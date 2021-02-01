@@ -14,6 +14,7 @@
   width: 46px;
   height: 46px;
   padding: 6px;
+  z-index: 100;
 }
 
 .top-ul span {
@@ -24,6 +25,56 @@
 
 img {
   width: 100%;
+}
+
+.img-small-square {
+  width: 105px;
+  height: 105px;
+}
+
+.oval-portrait {
+  width: 73px;
+  height: 73px;
+  padding: 0px;
+}
+
+.double-divider {
+  height: 4px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.vs-circle {
+  position: absolute;
+  top: -14px;
+  left: 45%;
+  background-color: black;
+}
+
+.border-bottom-4px {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.bottom-debater {
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+.news-week-logo {
+  width: 29px;
+  height: 29px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.red-underline:hover {
+  color: black;
+  -webkit-text-decoration: underline solid red 3px;
+          text-decoration: underline solid red 3px;
+  text-underline-offset: 9px;
 }
 
 .nav__search-bar {
