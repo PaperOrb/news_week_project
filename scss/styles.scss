@@ -1,6 +1,5 @@
 .filter-white {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(172deg)
-    brightness(108%) contrast(101%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(172deg) brightness(108%) contrast(101%);
 }
 
 .header__h1 {
@@ -52,10 +51,6 @@ img {
   background-color: black;
 }
 
-// * {
-//   border: red 1px solid;
-// }
-
 .border-bottom-4px {
   border-bottom: 4px solid #d9d9d9;
 }
@@ -70,6 +65,26 @@ img {
   height: 29px;
 }
 
+.magazine-image {
+  max-width: 290px;
+  max-height: 387px;
+}
+
+.w-295 {
+  max-width: 295px;
+}
+
+.see_all_features:hover {
+  background-color: #dbdcdd;
+  color: black;
+}
+
+.magazine-feature-image {
+  max-width: 290px;
+  height: 290px !important;
+  object-fit: cover;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -78,7 +93,7 @@ a {
 .red-underline:hover {
   color: black;
   text-decoration: underline solid red 3px;
-  text-underline-offset: 9px;
+  text-underline-offset: 7px;
 }
 
 .nav__search-bar {

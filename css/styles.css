@@ -65,6 +65,27 @@ img {
   height: 29px;
 }
 
+.magazine-image {
+  max-width: 290px;
+  max-height: 387px;
+}
+
+.w-295 {
+  max-width: 295px;
+}
+
+.see_all_features:hover {
+  background-color: #dbdcdd;
+  color: black;
+}
+
+.magazine-feature-image {
+  max-width: 290px;
+  height: 290px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -74,7 +95,7 @@ a {
   color: black;
   -webkit-text-decoration: underline solid red 3px;
           text-decoration: underline solid red 3px;
-  text-underline-offset: 9px;
+  text-underline-offset: 7px;
 }
 
 .nav__search-bar {
