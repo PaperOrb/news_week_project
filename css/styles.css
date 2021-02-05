@@ -1,3 +1,4 @@
+@import "/css/bootstrap.css";
 .filter-white {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(172deg) brightness(108%) contrast(101%);
 }
@@ -98,6 +99,18 @@ a {
   text-underline-offset: 7px;
 }
 
+@media (min-width: 0px) {
+  .side-story-img {
+    height: 258px;
+    width: 258px;
+  }
+}
+@media (min-width: 992px) {
+  .side-story-img {
+    height: 110px;
+    width: 110px;
+  }
+}
 .nav__search-bar {
   display: flex;
   align-items: center;
